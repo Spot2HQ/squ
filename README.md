@@ -31,23 +31,23 @@ The `SQU` module allows you to install optional dependencies according to the li
 To install Pandas dependencies:
 
 ```bash
-pip install git+https://github.com/Spot2HQ/squ.git#egg=squ[pandas]
+pip install 'git+https://github.com/Spot2HQ/squ.git#egg=squ[pandas]'
 
 ```
 To install Polars dependencies:
 
 ```bash
-pip install git+https://github.com/Spot2HQ/squ.git#egg=squ[polars]
+pip install 'git+https://github.com/Spot2HQ/squ.git#egg=squ[polars]'
 ```
 To install Dask dependencies:
 
 ```bash
-pip install git+https://github.com/Spot2HQ/squ.git#egg=squ[dask]
+pip install 'git+https://github.com/Spot2HQ/squ.git#egg=squ[dask]'
 ```
 To install multiple optional dependencies:
 
 ```bash
-pip install git+https://github.com/Spot2HQ/squ.git#egg=squ[pandas,polars]
+pip install 'git+https://github.com/Spot2HQ/squ.git#egg=squ[pandas,polars]'
 ```
 
 ## Usage

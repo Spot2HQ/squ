@@ -10,7 +10,7 @@ setup(
     extras_require={
         "pandas": ["pandas", "sqlalchemy", "pymysql"],
         "polars": ["polars", "connectorx", "pyarrow"],
-        "dask": ["dask[dataframe]", "pandas", "sqlalchemy", "pymysql"],
+        "dask": ["dask[dataframe,diagnostics]", "pandas", "sqlalchemy", "pymysql"],
     },
     url="https://github.com/Spot2HQ/squ.git",
     author="Luis Muñiz Valledor",

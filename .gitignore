@@ -1,1 +1,7 @@
 __pycache__/
+build/
+.venv/
+squ.egg-info/
+docker/data/
+.tox/
+.DS_Store
